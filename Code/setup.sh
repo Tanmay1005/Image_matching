@@ -32,5 +32,11 @@ git clone --recursive https://github.com/cvg/Hierarchical-Localization/
 cd Hierarchical-Localization/
 python3 -m pip install -e .
 
+# Downloading some extra packages
+echo "Downloading some dependencies..."
+pip install fastprogress
+pip install ipython
+pip install streamlit==1.32.0
+
 echo "All installations and setups are completed!"
 
