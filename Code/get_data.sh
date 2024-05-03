@@ -5,6 +5,9 @@ if ! command -v kaggle &> /dev/null
 then
     echo "Kaggle could not be found, installing..."
     pip install kaggle
+     echo 'export PATH=~/.local/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+
 else
     echo "Kaggle is already installed."
 fi

@@ -105,6 +105,22 @@ tar -xzf dinov2.tar.gz -C dinov2/pytorch/base/1
 
 ## Setup Script
 
+Clone the repository
+
+```bash
+git clone https://github.com/tanmay8103/Final-Project-Group2.git
+```
+
+Change the directory
+
+```bash
+cd Final-Project-Group2/Code
+
+```
+
+Upload your Kaggle API key (kaggle.json file) to the directory
+
+```bash
 Use get_data.sh to download the dataset
 
 ```bash
