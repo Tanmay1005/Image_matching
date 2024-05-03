@@ -4,7 +4,7 @@
 if ! command -v kaggle &> /dev/null
 then
     echo "Kaggle could not be found, installing..."
-    pip install --user kaggle
+    pip install kaggle
 else
     echo "Kaggle is already installed."
 fi
